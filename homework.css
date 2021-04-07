@@ -1,0 +1,96 @@
+body {
+  background-color: lightblue;
+}
+
+header {
+  background-color: cornflowerblue;
+  color: floralwhite;
+  font-size: 20px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 50px;
+  color: blue;
+}
+
+#name {
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+#links {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 10px;
+  word-spacing: 5px;
+  right: 10px;
+}
+
+#topic-1 {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+#about-me {
+  display: flex;
+  border-left: 5px solid darkcyan;
+  justify-content: center;
+  margin-left: 250px;
+  padding-left: 10px;
+}
+
+#topic-2 {
+  position: relative;
+  text-align: center;
+  top: 50px;
+  border-bottom: 5px darkcyan solid;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box {
+display: flex;
+position: relative;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#top-box {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.large-box {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  top: 55px;
+  border: darkcyan solid 2px;
+}
+
+#topic-3 {
+  position: relative;
+  top: 50px;
+  left: 20px;
+  margin-top: 50px;
+}
+
+#contact-me {
+  display: flex;
+  border-left: 5px solid darkcyan;
+  justify-content: center;
+  margin-left: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  word-spacing: 20px;
+  text-decoration: darkcyan underline 2px;
+}
