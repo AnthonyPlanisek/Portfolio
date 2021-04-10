@@ -1,13 +1,14 @@
 body {
   background-color: lightblue;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: cornflowerblue;
   color: floralwhite;
   font-size: 20px;
-  margin: auto;
-  padding: 20px 0;
+  width: 100%;
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
 
 #name {
   position: relative;
-  left: 10px;
+  left: 20px;
   top: 10px;
 }
 
@@ -25,8 +26,8 @@ h1 {
   position: relative;
   display: flex;
   justify-content: flex-end;
+  margin-top: 5px;
   bottom: 10px;
-  word-spacing: 5px;
   right: 10px;
 }
 
@@ -84,6 +85,7 @@ justify-content: center;
 
 #contact-me {
   display: flex;
+  flex-wrap: wrap;
   border-left: 5px solid darkcyan;
   justify-content: center;
   margin-left: 300px;
@@ -91,6 +93,9 @@ justify-content: center;
   padding: 20px;
   margin-top: auto;
   margin-bottom: auto;
-  word-spacing: 20px;
+}
+
+.info {
+  margin-left: 10px;
   text-decoration: darkcyan underline 2px;
 }
